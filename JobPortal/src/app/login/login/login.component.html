@@ -1,0 +1,57 @@
+<!-- <div class="container-fluid lg-8 sm-12">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="card text-center">
+              <div class="card-header">
+                <ul class="nav nav-pills card-header-pills">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
+</div> -->
+
+<div class="d-flex justify-content-center align-items-center">
+  <div class="my-auto" style="width: 35%">
+    <div class="my-card">
+      <div>
+        <h3>Sign In</h3>
+        <hr>
+      </div>
+      <form (submit)="submitFormDetails()">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Username or Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter username or email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+        </div>
+        <div>
+            <span>New to JobsMart?  <a href="/login/signup">Register Here</a></span>
+        </div>
+        <!-- <button type="submit" class="btn ">Submit</button> -->
+        <button type="submit" class="btn btn-secondary btn-lg" style="background-color: #eb962f">Sign In</button>
+      </form>
+      </div>
+  </div>
+</div>

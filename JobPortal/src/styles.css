@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #fafafa;
+}
+
+.my-card{
+    background-color: white;
+    padding: 10px 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px darkgray
+}

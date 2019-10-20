@@ -1,0 +1,50 @@
+<div class="d-flex justify-content-center align-items-center">
+  <div class="my-auto" style="width: 35%">
+    
+    
+    <div class="my-card">
+      <div>
+          <h3>Signup</h3>
+          <hr>
+      </div>
+
+      <!-- Select role for signup -->
+      <div>
+        <div class="container">
+          <div class="row">
+            <div class="col" style="text-align: center; border-right: solid 1px orange;">
+              <i class="fas fa-user" style="color: orange;font-size:100px"></i><br>
+              <h5 style="color: orange;">As Candidate</h5>
+            </div>
+      
+            <div class="col" style="text-align: center">
+      
+              <i class="fas fa-briefcase" style="color: orange;font-size: 100px"></i><br>
+              <h5 style="color: orange;">As Recruiter</h5>
+      
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <form (submit)="submitFormDetails()">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Username or Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter username or email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+        </div>
+        <div>
+          <span>New to JobsMart? <a href="/login/signup">Register Here</a></span>
+        </div>
+        <!-- <button type="submit" class="btn ">Submit</button> -->
+        <button type="submit" class="btn btn-secondary btn-lg" style="background-color: #eb962f">Sign In</button>
+      </form>
+    </div>
+  </div>
+</div>
